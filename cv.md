@@ -17,7 +17,16 @@ I am 32 years old. I work in the energy sector in a network organization. in the
 * Git 
 
 ## Code example:
-
+```
+function makeNegative(num) {
+    if ( num > 0 ) {
+        return -num;
+    }
+    else {
+        return num;
+    }
+}
+```
 
 ## Experience: 
 [CV#1. Markdown & Git](https://kirkor313.github.io/rsschool-cv/cv "Curriculum vitae")
