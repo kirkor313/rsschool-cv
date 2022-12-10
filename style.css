@@ -1,0 +1,128 @@
+@font-face {
+    font-family: PoiretOne;
+     src: url("assets/fonts/PoiretOne-Regular.ttf");
+   }
+* {
+    box-sizing: border-box;
+  }
+
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.5;
+    font-family: PointerOne,sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+.nav {
+    background:linear-gradient(90deg,white,rgb(181, 238, 233),white) ;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    letter-spacing:1.3px;
+    color: #828282;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+a {
+    text-decoration:none;
+    color: #828282;
+    -webkit-transition: all 0.5s ease;
+            transition: all 1s ease;
+}
+
+a:hover{
+    color: #9a2d8a;
+}
+
+.avatar {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20%;
+    border:#828282 solid 2px ;
+}
+
+.profile {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.profile-item {
+    margin: 1em 0 0.5em 0;
+    font-weight: normal;
+    position: relative;
+    font-size: 20px;
+    line-height: 40px;
+    background:linear-gradient(90deg,white,rgb(181, 238, 233) 40%,rgb(181, 238, 233) 60%,white) ;
+    padding: 5px 15px;
+    color: #828282;
+}
+
+.my-name {
+    text-decoration:underline;
+    letter-spacing:1.5px;
+}
+
+.profession {
+    font-style: italic;
+    letter-spacing:1.3px;
+}
+p {
+    text-indent:20px;
+}
+
+.section {
+    width: 50%;
+    padding: 30px 10px;
+}
+h2 {
+    letter-spacing:1.3px;
+    text-align: center;
+}
+ul {
+        list-style-type: circle;
+}
+.rss-logo {
+    width: 200px;
+}
+
+footer {
+    background:linear-gradient(90deg,white,rgb(181, 238, 233),white) ;
+}
+
+.footer-container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
